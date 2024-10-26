@@ -88,7 +88,7 @@ npm start
 1. Clone the repository:
 ```bash
 git https://github.com/nshutijonathan/web-monitoring.git
-cd website-monitoring-dashboard
+cd website-monitoring
 ```
 
 2. Build and run backend:
