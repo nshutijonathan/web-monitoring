@@ -1,0 +1,42 @@
+{
+  "name": "webstatus-be",
+  "version": "1.0.0",
+  "description": "A full-stack web application that allows users to add websites to a monitoring list and track their status (online/offline).",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production server/server.js",
+    "seeds": "",
+    "seeds-production": "",
+    "undoseeds": "",
+    "migration": "",
+    "migration-production": "",
+    "undomigration": "",
+    "runmigrations": "",
+    "test": "",
+    "dev": "NODE_ENV=development nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-preset-env": "^1.7.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
+  }
+}

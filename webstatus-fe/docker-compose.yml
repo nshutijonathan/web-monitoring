@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: .                # Current directory
+      dockerfile: Dockerfile     # Dockerfile in the current directory
+    ports:
+      - "3000:80"                # Map port 3000 to port 80 in the container
+
+networks:
+  default:
+    driver: bridge
